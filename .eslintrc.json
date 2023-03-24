@@ -9,8 +9,7 @@
         "plugin:@typescript-eslint/recommended",
         "prettier/prettier"
     ],
-    "overrides": [
-    ],
+    "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -19,17 +18,18 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "@typescript-eslint", 
+        "@typescript-eslint",
         "prettier"
     ],
     "rules": {
-      "prettier/prettier": "error",
-      "react/jsx-uses-react": "off",
-      "react/react-in-jsx-scope": "off"
+        "prettier/prettier": "error",
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/ban-ts-comment": "off"
     },
     "settings": {
-      "import/resolver": {
-        "typescript": {}
+        "import/resolver": {
+            "typescript": {}
+        }
     }
-  }
 }
