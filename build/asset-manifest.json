@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KV.WebFront/static/css/main.5c081c33.css",
+    "main.js": "/KV.WebFront/static/js/main.3fbd0362.js",
+    "static/media/sidebar.svg": "/KV.WebFront/static/media/sidebar.41f9834c2064d85aad06e2dcb9d4f7f4.svg",
+    "index.html": "/KV.WebFront/index.html",
+    "static/media/power.svg": "/KV.WebFront/static/media/power.4a8bd476f32ff1c5a1b6feacd0fa82ff.svg",
+    "main.5c081c33.css.map": "/KV.WebFront/static/css/main.5c081c33.css.map",
+    "main.3fbd0362.js.map": "/KV.WebFront/static/js/main.3fbd0362.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c081c33.css",
+    "static/js/main.3fbd0362.js"
+  ]
+}
