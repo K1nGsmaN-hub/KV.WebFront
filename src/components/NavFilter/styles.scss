@@ -1,0 +1,44 @@
+.nav-filter {
+  max-width: 240px;
+  width: 100%;
+  background-color: #E8F4FF;
+  color: #222;
+
+  &__item {
+    &:not(:last-child) {
+      border-bottom: 1px solid #999;
+    }
+
+    padding: 7px;
+
+    &-title {
+      font-size: 8px;
+      line-height: 12px;
+      margin: 0 0 10px;
+      color: #666;
+    }
+    
+    &-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    &-controls {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 12px;
+      line-height: 16px;
+
+      &-item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+
+        & > span {
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+}
