@@ -1,0 +1,30 @@
+.nav-link {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 10px 15px;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #222;
+  border: none;
+  border-radius: 10px;
+
+  &:active {
+    background-color: #E8F4FF;
+  }
+
+  &:hover {
+    background-color: #E8F4FF;
+  }
+
+  & > img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+}
