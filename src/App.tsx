@@ -1,13 +1,20 @@
-import './App.css';
+import NavSidebar from './components/NavSidebar';
+import Header from './components/Header';
+
+import './styles.scss';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>React+Typescript+ESlint+Prettier Template</h1>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <NavSidebar />
+
+            <div className="content">
+                <Header />
+
+                <main></main>
+            </div>
+        </div>
+    );
 }
 
 export default App;
